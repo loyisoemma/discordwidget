@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Discord Harrison App </title>
+  
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+</head>
+    <body>
+            <div class="container is-fluid" >
+                <div> 
+                    Your Account has been connected!
+                </div>
+            </div>
+    </body>
+</html>
+
+<script>
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    window.onload = async function(){
+      var token = getParameterByName('token');
+      localStorage.setItem("discord_widget_v1_token", token);
+    }
+
+</script>
+   

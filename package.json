@@ -1,0 +1,28 @@
+{
+  "name": "discord_widget_by_harrison",
+  "version": "2.1.0",
+  "description": "An App that creates a widget off discord ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Ephraim",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "*",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "btoa": "^1.2.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "*",
+    "discord.js": "^13.3.1",
+    "dotenv": "^6.0.0",
+    "express": "*",
+    "http": "*",   
+    "mongoose": "*",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.1.0",   
+    "path": "*",
+    "request": "*",
+    "socket.io": "*"
+  }
+}
